@@ -1,24 +1,30 @@
 //
-//  ContentView.swift
+//  LoginView.swift
 //  Bubble
 //
-//  Created by Gabrielle Stewart on 2/24/24.
+//  Created by Savv Lin on 2/24/24.
 //
 
 import SwiftUI
+import Firebase
 
-struct ContentView: View {
+struct LoginView: View {
+    
+    @State private var email: String = ""
+    @State private var password: String = ""
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Bubble")
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    LoginView()
 }
+
