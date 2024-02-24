@@ -13,16 +13,14 @@ struct User: Identifiable, Codable, Hashable {
     let email: String
     let username: String
     var profileImageUrl: String?
-    let bio: String?
     
     // added this entire init part below
-    init(id: String, fullname: String, email: String, username: String, profileImageUrl: String? = nil, bio: String? = nil) {
+    init(id: String, fullname: String, email: String, username: String, profileImageUrl: String? = nil) {
         self.id = id
         self.fullname = fullname
         self.email = email
         self.username = username
         self.profileImageUrl = profileImageUrl
-        self.bio = bio
     }
 }
 
