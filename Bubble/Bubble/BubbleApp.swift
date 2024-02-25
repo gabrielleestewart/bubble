@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 @main
-struct OnBoardingViewSwiftUIApp: App {
+struct BubbleApp: App {
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     
     var body: some Scene {

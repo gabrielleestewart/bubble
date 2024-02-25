@@ -14,8 +14,9 @@
 		2D33D1C92B8AB86F00DA359A /* ObModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1C82B8AB86F00DA359A /* ObModel.swift */; };
 		2D33D1CB2B8AB8C100DA359A /* ObDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1CA2B8AB8C100DA359A /* ObDataModel.swift */; };
 		2D33D1CD2B8ABA7A00DA359A /* ObFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1CC2B8ABA7A00DA359A /* ObFeatureView.swift */; };
-		2D33D1CF2B8ABB8600DA359A /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1CE2B8ABB8600DA359A /* StartButtonView.swift */; };
 		2D33D1D12B8ABBD600DA359A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1D02B8ABBD600DA359A /* OnboardingView.swift */; };
+		2D33D1D32B8AD56C00DA359A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1D22B8AD56C00DA359A /* LoginView.swift */; };
+		2D33D1D52B8AFD0D00DA359A /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1D42B8AFD0D00DA359A /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		2D33D1C82B8AB86F00DA359A /* ObModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObModel.swift; sourceTree = "<group>"; };
 		2D33D1CA2B8AB8C100DA359A /* ObDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObDataModel.swift; sourceTree = "<group>"; };
 		2D33D1CC2B8ABA7A00DA359A /* ObFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObFeatureView.swift; sourceTree = "<group>"; };
-		2D33D1CE2B8ABB8600DA359A /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		2D33D1D02B8ABBD600DA359A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		2D33D1D22B8AD56C00DA359A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2D33D1D42B8AFD0D00DA359A /* StartButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButtonView.swift; path = Bubble/Models/StartButtonView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			children = (
 				2D33D1CC2B8ABA7A00DA359A /* ObFeatureView.swift */,
 				2D33D1D02B8ABBD600DA359A /* OnboardingView.swift */,
-				2D33D1CE2B8ABB8600DA359A /* StartButtonView.swift */,
+				2D33D1D42B8AFD0D00DA359A /* StartButtonView.swift */,
+				2D33D1D22B8AD56C00DA359A /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,12 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D33D1D52B8AFD0D00DA359A /* StartButtonView.swift in Sources */,
 				2D33D1CD2B8ABA7A00DA359A /* ObFeatureView.swift in Sources */,
 				2D33D1CB2B8AB8C100DA359A /* ObDataModel.swift in Sources */,
 				2D33D1C92B8AB86F00DA359A /* ObModel.swift in Sources */,
-				2D33D1CF2B8ABB8600DA359A /* StartButtonView.swift in Sources */,
 				2D33D1BA2B8AB82000DA359A /* ContentView.swift in Sources */,
 				2D33D1B82B8AB82000DA359A /* BubbleApp.swift in Sources */,
+				2D33D1D32B8AD56C00DA359A /* LoginView.swift in Sources */,
 				2D33D1D12B8ABBD600DA359A /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
