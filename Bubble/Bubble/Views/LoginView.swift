@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct LoginView: View {
+    
+    @State private var email = ""
+    @State private var password = ""
+    
     var body: some View {
         NavigationStack {
             
@@ -22,33 +26,12 @@ struct LoginView: View {
                         .frame(width: 342, height: 77)
                         .padding()
                     
-                    ZStack {
-                        Rectangle()
-                            .foregroundColor(.clear)
-                            .frame(width: 316, height: 46)
-                            .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                            .cornerRadius(10)
-                            .padding()
-                    }
+                    InputView(text: $email, placeholder: "Email Address")
+                        .autocapitalization(.none)
                     
-                    ZStack {
-                        
-                        Rectangle()
-                            .foregroundColor(.clear)
-                            .frame(width: 316, height: 46)
-                            .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                            .cornerRadius(10)
-                    }
+                    InputView(text: $password, placeholder: "Password", isSecureField: true)
+                        .autocapitalization(.none)
                     
-                    ZStack {
-                        
-                        Rectangle()
-                            .foregroundColor(.clear)
-                            .frame(width: 316, height: 46)
-                            .background(Color(red: 0.85, green: 0.85, blue: 0.85))
-                            .cornerRadius(10)
-                            .padding()
-                    }
                     
                     
                     

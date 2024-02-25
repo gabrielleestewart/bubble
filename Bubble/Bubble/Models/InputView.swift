@@ -30,10 +30,14 @@ struct InputView: View {
                 if isSecureField {
                     SecureField(placeholder, text: $text)
                         .font(.system(size: 14))
+                        .frame(width: 316, height: 46)
+                        .padding(.leading)
 
                 } else {
                     TextField(placeholder, text: $text)
                         .font(.system(size: 14))
+                        .frame(width: 316, height: 46)
+                        .padding(.leading)
                     
                 }
             }
