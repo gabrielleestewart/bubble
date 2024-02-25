@@ -7,22 +7,22 @@
 
 
 import SwiftUI
-import SwiftData
-/*import FirebaseCore
-      
+import Firebase
 
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: NSObject, UIApplicationDelegate {
+  func application(_ application: UIApplication,
+                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    FirebaseApp.configure()
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
-        return true
-    }
-}*/
+    return true
+  }
+}
 
 
 @main
 struct BubbleApp: App {
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
