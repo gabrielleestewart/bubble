@@ -23,6 +23,7 @@
 		2FEF920F2B8B104300F8E2D0 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEF920E2B8B104300F8E2D0 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		2FEF92112B8B104300F8E2D0 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 2FEF92102B8B104300F8E2D0 /* FirebaseAppCheck */; };
 		2FEF92132B8B110700F8E2D0 /* GoogleService-Info (3).plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FEF92122B8B110700F8E2D0 /* GoogleService-Info (3).plist */; };
+		2FEF92152B8B1FB100F8E2D0 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEF92142B8B1FB100F8E2D0 /* InputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		2D33D1D22B8AD56C00DA359A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		2D33D1D42B8AFD0D00DA359A /* StartButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StartButtonView.swift; path = Bubble/Models/StartButtonView.swift; sourceTree = SOURCE_ROOT; };
 		2FEF92122B8B110700F8E2D0 /* GoogleService-Info (3).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (3).plist"; sourceTree = "<group>"; };
+		2FEF92142B8B1FB100F8E2D0 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				2D33D1C82B8AB86F00DA359A /* ObModel.swift */,
 				2D33D1CA2B8AB8C100DA359A /* ObDataModel.swift */,
+				2FEF92142B8B1FB100F8E2D0 /* InputView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				2D33D1C92B8AB86F00DA359A /* ObModel.swift in Sources */,
 				2D33D1BA2B8AB82000DA359A /* ContentView.swift in Sources */,
 				2D33D1B82B8AB82000DA359A /* BubbleApp.swift in Sources */,
+				2FEF92152B8B1FB100F8E2D0 /* InputView.swift in Sources */,
 				2D33D1D32B8AD56C00DA359A /* LoginView.swift in Sources */,
 				2D33D1D12B8ABBD600DA359A /* OnboardingView.swift in Sources */,
 			);

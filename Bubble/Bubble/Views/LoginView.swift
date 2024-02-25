@@ -56,9 +56,11 @@ struct LoginView: View {
                         // Handle sign-up action
                     }) {
                         Text("Sign Up")
-                            .font(.headline)
+                            .font(
+                            Font.custom("SF Pro Text", size: 20)
+                            .weight(.bold)
+                            )
                             .frame(width: 280, height: 20)
-
                             .foregroundColor(.white)
                             .padding()
                             .background(Color(red: 0.96, green: 0.69, blue: 0.67))
