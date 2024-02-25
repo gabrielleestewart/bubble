@@ -145,6 +145,26 @@ struct IdentitiesView: View {
                         }
                     }
                     Spacer()
+                    
+                    NavigationLink {
+                        GroupchatsView()
+                    } label: {
+                        HStack {
+                            
+                            Text("Go to Chats")
+                                .fontWeight(.semibold)
+                                .font(.title)
+                                .frame(width: 280, height: 20)
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(Color(red: 0.96, green: 0.69, blue: 0.67))
+                                .cornerRadius(10)
+                        }
+                    }
+                    .padding()
+                    
+
+
                 }
                 .padding()
             }
