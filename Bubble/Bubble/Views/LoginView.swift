@@ -99,7 +99,6 @@ struct LoginView: View {
 }
 
 
-
 struct LoginView_Preview: PreviewProvider {
     static var previews: some View {
         LoginView()
