@@ -26,7 +26,7 @@ struct BubbleApp: App {
     
     var body: some Scene {
         WindowGroup {
-            OnBoardingView()
+            OnboardingView()
         }
     }
 }

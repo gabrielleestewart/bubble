@@ -19,7 +19,7 @@ struct LoginView: View {
                 
                 VStack {
                     // PUT STUFF ON TOP OF BACKGROUND HERE
-                    
+                    Spacer()
                     Image("logo")
                         .resizable()
                         .aspectRatio(contentMode: .fill)
@@ -35,21 +35,43 @@ struct LoginView: View {
                     
                     
                     
-                    Button(action: {
-                        // Handle sign-up action
-                    }) {
-                        Text("Sign Up")
-                            .font(
-                            Font.custom("SF Pro Text", size: 20)
-                            .weight(.bold)
-                            )
-                            .frame(width: 280, height: 20)
-                            .foregroundColor(.white)
-                            .padding()
-                            .background(Color(red: 0.96, green: 0.69, blue: 0.67))
-                            .cornerRadius(10)
+                    NavigationLink {
+                        IdentitiesView()
+                    } label: {
+                        HStack {
+                            
+                            Text("Sign In ➜")
+                                .font(
+                                    Font.custom("SF Pro Text", size: 20)
+                                        .weight(.bold)
+                                )
+                                .frame(width: 280, height: 20)
+                                .foregroundColor(.white)
+                                .padding()
+                                .background(Color(red: 0.96, green: 0.69, blue: 0.67))
+                                .cornerRadius(10)
+                        }
                     }
+
                     .padding()
+                    .navigationBarBackButtonHidden(true)
+                    
+                    
+                    
+                    Spacer()
+                    
+                    //Sign up button
+                    NavigationLink {
+                        SignupView()
+                    } label: {
+                        HStack {
+                            Text("Don't have an account?")
+                            Text("Sign up")
+                                .fontWeight(.bold)
+                        }
+                        .foregroundColor(.white)
+                        .font(.system(size: 16))
+                    }
 
                     
                     
@@ -61,6 +83,7 @@ struct LoginView: View {
                 }
                 .containerRelativeFrame([.horizontal, .vertical])
                 .background(Color(red: 0.01, green: 0.17, blue: 0.27))
+
                 
                 
                 Rectangle()
@@ -71,14 +94,17 @@ struct LoginView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fill)
                             .frame(width: 1011, height: 525)
-                            .clipped()
                     )
                     .rotationEffect(Angle(degrees: -100))
+
                 
                 
             }
+
         }
+        
     }
+
 }
 
 
