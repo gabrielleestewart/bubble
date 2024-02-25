@@ -54,7 +54,8 @@ struct ObFeatureView: View {
         }
     }
 }
-    
+ 
+
     struct ObFeatureView_Previews: PreviewProvider {
         static var previews: some View {
             ObFeatureView(page: ObData[0])

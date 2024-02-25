@@ -48,6 +48,7 @@ struct OnBoardingView: View {
             }
         }
     }
+
     
     struct OnBoardingView_Previews: PreviewProvider {
         static var previews: some View {
