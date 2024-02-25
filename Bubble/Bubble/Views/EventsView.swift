@@ -9,7 +9,6 @@ import SwiftUI
 
 struct EventsView: View {
     var body: some View {
-        NavigationView {
             ZStack {
                 Color(red: 0.01, green: 0.17, blue: 0.27)
                     .edgesIgnoringSafeArea(.all)
@@ -214,7 +213,7 @@ struct EventsView: View {
             }
         }
     }
-}
+
 
 struct EventsView_Previews: PreviewProvider {
     static var previews: some View {
