@@ -16,6 +16,7 @@
 		2D33D1CD2B8ABA7A00DA359A /* ObFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1CC2B8ABA7A00DA359A /* ObFeatureView.swift */; };
 		2D33D1CF2B8ABB8600DA359A /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1CE2B8ABB8600DA359A /* StartButtonView.swift */; };
 		2D33D1D12B8ABBD600DA359A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D33D1D02B8ABBD600DA359A /* OnboardingView.swift */; };
+		8BDA80602B8B185200D4D3EF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDA805F2B8B185200D4D3EF /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2D33D1CC2B8ABA7A00DA359A /* ObFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObFeatureView.swift; sourceTree = "<group>"; };
 		2D33D1CE2B8ABB8600DA359A /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		2D33D1D02B8ABBD600DA359A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		8BDA805F2B8B185200D4D3EF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				2D33D1CC2B8ABA7A00DA359A /* ObFeatureView.swift */,
 				2D33D1D02B8ABBD600DA359A /* OnboardingView.swift */,
 				2D33D1CE2B8ABB8600DA359A /* StartButtonView.swift */,
+				8BDA805F2B8B185200D4D3EF /* SettingsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D33D1CD2B8ABA7A00DA359A /* ObFeatureView.swift in Sources */,
+				8BDA80602B8B185200D4D3EF /* SettingsView.swift in Sources */,
 				2D33D1CB2B8AB8C100DA359A /* ObDataModel.swift in Sources */,
 				2D33D1C92B8AB86F00DA359A /* ObModel.swift in Sources */,
 				2D33D1CF2B8ABB8600DA359A /* StartButtonView.swift in Sources */,
