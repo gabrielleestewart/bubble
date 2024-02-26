@@ -3,55 +3,58 @@
 //  Bubble
 //
 //  Created by Gabrielle Stewart on 2/24/24.
-//
-
+//  OnboardingView.swift
 import SwiftUI
-
-struct PageControl: View {
-    var numberOfPages: Int
-    @Binding var currentPage: Int
-    
-    var body: some View {
-        HStack {
-            ForEach(0..<3) { page in
-                Circle()
-                    .fill(page == currentPage ? Color.white : Color.gray)
-                    .frame(width: 8, height: 8)
-            }
-        }
-    }
-}
-
-struct OnBoardingView: View {
+struct OnboardingView: View {
     // MARK: - PROPERTIES
-    
     var pages: [Page] = ObData
     @State private var selectedPageIndex: Int = 0
-    
+    @State private var contentOffset: CGFloat = 0
     // MARK: - BODY
-    
     var body: some View {
         ZStack {
-            TabView(selection: $selectedPageIndex) {
-                ForEach(pages.indices, id: \.self) { index in
-                    ObFeatureView(page: pages[index])
-                        .tag(index)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 0) {
+                    ForEach(pages.indices, id: \.self) { index in
+                        ObFeatureView(page: pages[index])
+                        // change this
+                            .frame(width: UIScreen.main.bounds.width)
+                            .ignoresSafeArea(.all)
+                    }
                 }
-            } //: TAB
-            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
-            .padding(.vertical, 20)
-            
-            VStack {
-                Spacer()
-                PageControl(numberOfPages: pages.count, currentPage: $selectedPageIndex)
-                .padding(.bottom, 40)
+                .preference(key: OffsetPreferenceKey.self, value: contentOffset)
+            }
+            .coordinateSpace(name: "scroll-view")
+            .onPreferenceChange(OffsetPreferenceKey.self) { offset in
+                let currentIndex = Int(offset / UIScreen.main.bounds.width)
+                if currentIndex == pages.count {
+                    // If the last page is reached, scroll back to the first page
+                    withAnimation {
+                        contentOffset = 0
+                    }
+                } else {
+                    selectedPageIndex = currentIndex
+                }
+            }
+            .onAppear {
+                withAnimation(.easeOut(duration: 0.5)) {
+                    UIScrollView.appearance().isPagingEnabled = true
+                }
             }
         }
     }
-    
-    struct OnBoardingView_Previews: PreviewProvider {
+    struct OnboardingView_Previews: PreviewProvider {
         static var previews: some View {
-            OnBoardingView()
+            OnboardingView()
         }
     }
 }
+struct OffsetPreferenceKey: PreferenceKey {
+    static var defaultValue: CGFloat = 0
+    static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
+        value = nextValue()
+    }
+}
+
+
+
