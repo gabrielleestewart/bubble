@@ -147,7 +147,11 @@ We learned how to leverage Figma’s powerful design features to create visually
 <br />
 
 ### Demo
-<iframe src="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone11&scale=75&orientation=portrait&osVersion=15.3" width="400px" height="800px" frameborder="0" scrolling="no"></iframe>
+<object data="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone11&scale=75&orientation=portrait&osVersion=17.2" type="text/html" width="100%" height="600px">
+  <a href="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone11&scale=75&orientation=portrait&osVersion=17.2">View a demo of the app</a>
+</object>
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
