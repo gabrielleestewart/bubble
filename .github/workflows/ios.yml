@@ -15,8 +15,6 @@ jobs:
       - name: Checkout
       # Reference a specific commit
       - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
-      # Reference the major version of a release
-      - uses: actions/checkout@v4
       # Reference a specific version
       - uses: actions/checkout@v4.2.0
       # Reference a branch
@@ -24,14 +22,18 @@ jobs:
       - name: Set Default Scheme
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
+          echo "XcodeBuild JSON Output:"
+          echo $scheme_list
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
+          echo "Default Scheme: $default"
           echo $default | cat >default
-          echo Using default scheme: $default
+          echo "Using default scheme: $default"
       - name: Build
         env:
           scheme: ${{ 'default' }}
           platform: ${{ 'iOS Simulator' }}
         run: |
+          set -e
           # xcrun xctrace returns via stderr, not the expected stdout (see https://developer.apple.com/forums/thread/663959)
           device=`xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//"`
           if [ $scheme = default ]; then scheme=$(cat default); fi
