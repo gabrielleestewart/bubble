@@ -4,7 +4,7 @@
 <!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables 
+*** See the bottom of this document for the declaration of the reference variables
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
@@ -18,26 +18,20 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/title.jpeg" alt="Logo" width="360" height="202.5">
-  </a>
+  <img align="right" width="250" height="250" src="bubble app icon.png">
 
 <!-- <h3 align="center">Bubble</h3> -->
-<br />
-
-<br />
-
-  <p align="center">
-    Are you looking for a community of like-minded individuals at UNC? Look no further than Bubble! Our platform connects UNC students with similar experiences and perspectives, providing a safe and welcoming space to meet new people and expand your network. Whether you're interested in joining niche group chats or attending events on campus, Bubble has something for everyone. We offer a wide range of options to help you connect with others who share your cultural background or interests so you'll always feel right at home.
+ 
+<p align="center">
+Are you looking for a community of like-minded individuals at UNC? Look no further than Bubble! Our platform connects UNC students with similar experiences and perspectives, providing a safe and welcoming space to meet new people and expand your network. Whether you're interested in joining niche group chats or attending events on campus, Bubble has something for everyone. We offer a wide range of options to help you connect with others who share your cultural background or interests so you'll always feel right at home.
   <p align="center">
 Don't wait to find your bubble at UNC. Sign up for Bubble today!
 
   <p align="center">
 PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
+    
 <br />
-<br />
+<p align="left">
     <a href="https://github.com/gabrielleestewart/bubble"><strong>Explore the docs »</strong></a>
     <br />
     <br />
@@ -94,8 +88,11 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
 
 <div align="center">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/purpose.jpeg" alt="Purpose" width="360" height="202.5">
-  </a>
+    <img src="Slides/purpose.jpeg" alt="Purpose" width="288" height="162">
+  <a href="https://github.com/gabrielleestewart/bubble">
+    <img src="Slides/obstacles.jpeg" alt="Obstacles" width="288" height="162">
+  <a href="https://github.com/gabrielleestewart/bubble">
+    <img src="Slides/nextsteps.jpeg" alt="Next Steps" width="288" height="162">
 
 ### Inspiration
 
@@ -109,15 +106,6 @@ Bubble is a platform designed to connect students at UNC who share common experi
 
 We utilized Swift and Firebase for our backend, while SwiftUI and Figma were our go-to tools for front-end development. We followed a collaborative workflow where each of us pushed our code to our respective branches, and we regularly merged and pulled changes from one another and the main branch.
 
-### Challenges we ran into
-
-We experienced some difficulties while attempting to upload excerpts to GitHub. Unfortunately, this resulted in the loss of some of our code. Our limited understanding of Firebase made learning and applying its features challenging. Additionally, being our first hackathon, we were not adequately prepared for the sleep deprivation, which led to fatigue.
-<div align="center">
-  <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/obstacles.jpeg" alt="Obstacles" width="360" height="202.5">
-  </a>
-  <br />
-
 ### Accomplishments that we're proud of
 
 We've compiled an extensive onboarding page showcasing all of Bubble's features. Our functional sign-up and sign-in screens are secured through Firebase authentication. To make it easier for users to find events and chats that match their cultural background and interests, we've implemented a tag system that can expand or narrow their community search.
@@ -126,26 +114,20 @@ We've compiled an extensive onboarding page showcasing all of Bubble's features.
 
 We learned how to leverage Figma’s powerful design features to create visually pleasing and functional software. We discovered how Firebase could be used to implement a wide range of software functionalities. We explored the benefits of collaborating on GitHub in a single repository and learned how to compartmentalize tasks to work together more efficiently.
 
-### What's next for Bubble
-
-We have exciting plans in the works to improve our chats by adding more functionality and expanding our events beyond Chapel Hill. To do this, we will be connecting with Eventbrite. We also plan to extend Bubble’s networking capabilities to alumni, and we have high hopes of bringing our services to other schools.
-<div align="center">
-  <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/nextsteps.jpeg" alt="Next Steps" width="360" height="202.5">
-  </a>
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br />
+<div align="left">
 
 ### Built With
 
-* [![Swift][Swift]][Swift-url]
-* [![Swift UI][SwiftUI]][SwiftUI-url]
-* [![XCode][XCode]][XCode-url]
-* [![Figma][Figma]][Figma-url]
-* [![Firebase][Firebase]][Firebase]
-* [![Photoshop][Photoshop]][Photoshop-url]
+[![Swift][Swift]][Swift-url]
+[![Swift UI][SwiftUI]][SwiftUI-url]
+[![XCode][XCode]][XCode-url]
+[![Figma][Figma]][Figma-url]
+[![Firebase][Firebase]][Firebase]
+[![Photoshop][Photoshop]][Photoshop-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,19 +137,14 @@ We have exciting plans in the works to improve our chats by adding more function
 ## Usage
 <div align="center">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/onboarding.jpeg" alt="Onboarding" width="360" height="202.5">
-    
-  <div align="center">
+    <img src="Slides/onboarding.jpeg" alt="Onboarding" width="288" height="162"> 
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/tags.jpeg" alt="Tags & Events" width="360" height="202.5">
-  </a>
-    <div align="center">
+    <img src="Slides/tags.jpeg" alt="Tags & Events" width="288" height="162">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/chats.jpeg" alt="Chats" width="360" height="202.5">
+    <img src="Slides/chats.jpeg" alt="Chats" width="288" height="162">
   <br />
 
-
-Demo Powerpoint Presentation Link: (https://1drv.ms/p/s!AgRrebEBU4m8gl8IRo9QtNfO-NRc?e=FPxPKb)
+<br />
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -176,22 +153,30 @@ Demo Powerpoint Presentation Link: (https://1drv.ms/p/s!AgRrebEBU4m8gl8IRo9QtNfO
 
 <!-- CONTACT -->
 ## Contact
-<div align="center">
-  <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="creators/title.jpeg" alt="Logo" width="360" height="202.5">
-  </a>
 
+<img align="right" width="328" height="190.5" src="Slides/creators.jpeg">
+
+<div align="left">
+<br/ >
 Mel Andrade-Muñoz - https://linkedin.com/in/andrademuñoz
- 
+<br/ >
+<br/ >
 Kennedy Cameron - https://linkedin.com/in/kennedy-cameron-4810b4249 
-
+<br/ >
+<br/ >
 Savv Lin - https://linkedin.com/in/savvlin 
-
+<br/ >
+<br/ >
 Gabrielle Stewart - https://linkedin.com/in/gabrielleestewart 
+<br/ >
+<br/ >
+<br/ >
+<br/ >
+
 
 Git Hub Project Link: [https://github.com/gabrielleestewart/bubble](https://github.com/gabrielleestewart/bubble)
 
-Pearl Hacks 2024 Project Devpost Link: [https://devpost.com/software/bubble-vywgra?ref_content=my-projects-tab&ref_feature=my_projects]
+Pearl Hacks 2024 Project Devpost Link: https://devpost.com/software/bubble-vywgra?ref_content=my-projects-tab&ref_feature=my_projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
