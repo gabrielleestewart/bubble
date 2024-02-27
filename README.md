@@ -139,10 +139,9 @@ We have exciting plans in the works to improve our chats by adding more function
 
 ### Demo Slideshow
 
-<iframe src="https://onedrive.live.com/embed?resid=BC895301B1796B04%21351&amp;authkey=!AAj8iKBbjZfXQig&amp;em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.
-</iframe>
+[<iframe src="https://onedrive.live.com/embed?resid=BC895301B1796B04%21351&amp;authkey=!AAj8iKBbjZfXQig&amp;em=2&amp;wdAr=1.7777777777777777" width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>]
 
-Demo Powerpoint Presentation Link: [https://github.com/gabrielleestewart/bubble](https://github.com/gabrielleestewart/bubble)
+Demo Powerpoint Presentation Link: (https://1drv.ms/p/s!AgRrebEBU4m8gl8IRo9QtNfO-NRc?e=FPxPKb)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -152,10 +151,14 @@ Demo Powerpoint Presentation Link: [https://github.com/gabrielleestewart/bubble]
 <!-- CONTACT -->
 ## Contact
 
-Mel Andrade-Muñoz https://linkedin.com/in/andrademuñoz 
+Mel Andrade-Muñoz - https://linkedin.com/in/andrademuñoz
+ 
 Kennedy Cameron - https://linkedin.com/in/kennedy-cameron-4810b4249 
+
 Savv Lin - https://linkedin.com/in/savvlin 
+
 Gabrielle Stewart - https://linkedin.com/in/gabrielleestewart 
+
 
 
 Git Hub Project Link: [https://github.com/gabrielleestewart/bubble](https://github.com/gabrielleestewart/bubble)
