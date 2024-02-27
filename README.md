@@ -88,7 +88,7 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]]
+<!-- [![Product Name Screen Shot][product-screenshot]] -->
 
 ### Inspiration
 
@@ -196,7 +196,7 @@ Pearl Hacks 2024 Project Devpost Link: [https://devpost.com/software/bubble-vywg
 [savv-linkedin-url]: https://linkedin.com/in/savvlin
 [mel-linkedin-url]: https://linkedin.com/in/andrademuñoz
 [ken-linkedin-url]: https://linkedin.com/in/kennedy-cameron-4810b4249
-[product-screenshot]: images/Rectangle%2030.jpg
+<!-- [product-screenshot]: images/Rectangle%2030.jpg -->
 [Swift]: https://img.shields.io/badge/swift-%23F05138?style=for-the-badge&logo=swift&logoColor=white
 [Swift-url]: https://developer.apple.com/swift/
 [SwiftUI]: https://img.shields.io/badge/swiftui-%233F8EF4?style=for-the-badge&logo=swift&logoColor=white
