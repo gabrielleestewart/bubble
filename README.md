@@ -113,6 +113,10 @@ Bubble is a platform designed to connect students at UNC who share common experi
 
 We utilized Swift and Firebase for our backend, while SwiftUI and Figma were our go-to tools for front-end development. We followed a collaborative workflow where each of us pushed our code to our respective branches, and we regularly merged and pulled changes from one another and the main branch.
 
+### Challenges we ran into
+
+We experienced some difficulties while attempting to upload excerpts to GitHub. Unfortunately, this resulted in the loss of some of our code. Our limited understanding of Firebase made learning and applying its features challenging. Additionally, being our first hackathon, we were not adequately prepared for the sleep deprivation, which led to fatigue.
+
 ### Accomplishments that we're proud of
 
 We've compiled an extensive onboarding page showcasing all of Bubble's features. Our functional sign-up and sign-in screens are secured through Firebase authentication. To make it easier for users to find events and chats that match their cultural background and interests, we've implemented a tag system that can expand or narrow their community search.
@@ -121,6 +125,9 @@ We've compiled an extensive onboarding page showcasing all of Bubble's features.
 
 We learned how to leverage Figma’s powerful design features to create visually pleasing and functional software. We discovered how Firebase could be used to implement a wide range of software functionalities. We explored the benefits of collaborating on GitHub in a single repository and learned how to compartmentalize tasks to work together more efficiently.
 
+### What's next for Bubble
+
+We have exciting plans in the works to improve our chats by adding more functionality and expanding our events beyond Chapel Hill. To do this, we will be connecting with Eventbrite. We also plan to extend Bubble’s networking capabilities to alumni, and we have high hopes of bringing our services to other schools.
 
 <br />
 <div align="left">
