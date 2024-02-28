@@ -44,6 +44,8 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
     <a href="https://github.com/gabrielleestewart/bubble/issues">Request Feature</a>
   </p>
 </div>
+<br />
+<br />
 
 
 <!-- TABLE OF CONTENTS -->
@@ -83,6 +85,7 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
   </ol>
 </details>
 
+<br />
 
 
 <!-- ABOUT THE PROJECT -->
