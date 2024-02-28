@@ -19,17 +19,25 @@ jobs:
         id: load_default_scheme
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
+          echo "XcodeBuild JSON Output:"
+          echo "$scheme_list"
+          
+          # Additional debugging to see what's causing the JSON parse error
           default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
+          echo "Default Scheme: $default"
+          
+          # Save the default scheme to a file
           echo $default | cat > default
+          
           echo "Using default scheme: $default"
           echo "::set-output name=scheme::$default"
-
+      
       - name: Build
         env:
           scheme: ${{ steps.load_default_scheme.outputs.scheme }}
           platform: ${{ 'iOS Simulator' }}
         run: |
-          cd /Users/gabriellestewart/code/bubble 
+          cd /Users/gabriellestewart/code/bubble/Bubble
 
           device=$(xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//" 2>/dev/null)
           if [ $scheme = default ]; then scheme=$(cat default); fi
