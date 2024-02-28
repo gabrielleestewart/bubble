@@ -48,7 +48,7 @@ jobs:
           scheme: ${{ steps.load_default_scheme.outputs.scheme }}
           platform: ${{ 'iOS Simulator' }}
         run: |
-          cd /Users/gabriellestewart/code/bubble/Bubble
+          cd Bubble/Bubble.xcodeproj
 
           device=$(xcrun xctrace list devices 2>&1 | grep -oE 'iPhone.*?[^\(]+' | head -1 | awk '{$1=$1;print}' | sed -e "s/ Simulator$//" 2>/dev/null)
           if [ $scheme = default ]; then scheme=$(cat default); fi
