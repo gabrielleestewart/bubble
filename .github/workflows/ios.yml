@@ -18,20 +18,31 @@ jobs:
       - name: Set Default Scheme
         id: load_default_scheme
         run: |
+          # Capture the xcodebuild output
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
+          
+          # Display the captured JSON output for debugging
           echo "XcodeBuild JSON Output:"
           echo "$scheme_list"
           
-          # Additional debugging to see what's causing the JSON parse error
-          default=$(echo $scheme_list | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
-          echo "Default Scheme: $default"
+          # Attempt to parse the JSON and print more debugging information
+          begin
+            default=$(echo "$scheme_list" | ruby -e "require 'json'; puts JSON.parse(STDIN.gets)['project']['targets'][0]")
+            echo "Default Scheme: $default"
+          rescue JSON::ParserError => e
+            echo "Error parsing JSON: #{e.message}"
+            exit 1
+          end
           
           # Save the default scheme to a file
-          echo $default | cat > default
+          echo "$default" | cat > default
           
           echo "Using default scheme: $default"
+          
+          # Set the output variable
           echo "::set-output name=scheme::$default"
       
+            
       - name: Build
         env:
           scheme: ${{ steps.load_default_scheme.outputs.scheme }}
