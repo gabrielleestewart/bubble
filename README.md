@@ -27,7 +27,7 @@ Are you looking for a community of like-minded individuals at UNC? Look no furth
   <p align="center">
 Don't wait to find your bubble at UNC. Sign up for Bubble today!
 
-  <p align="center">
+  <p align="left">
 PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
     
 <br />
