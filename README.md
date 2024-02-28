@@ -88,11 +88,11 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
 
 <div align="center">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/purpose.jpeg" alt="Purpose" width="240" height="135">
+    <img src="Slides/purpose.jpeg" alt="Purpose" width="260" height="155">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/obstacles.jpeg" alt="Obstacles" width="240" height="135">
+    <img src="Slides/obstacles.jpeg" alt="Obstacles" width="260" height="155">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/nextsteps.jpeg" alt="Next Steps" width="240" height="135">
+    <img src="Slides/nextsteps.jpeg" alt="Next Steps" width="260" height="155">
 
 ### Inspiration
 
@@ -137,11 +137,11 @@ We learned how to leverage Figma’s powerful design features to create visually
 ## Usage
 <div align="center">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/onboarding.jpeg" alt="Onboarding" width="240" height="135"> 
+    <img src="Slides/onboarding.jpeg" alt="Onboarding" width="260" height="155"> 
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/tags.jpeg" alt="Tags & Events" width="240" height="135">
+    <img src="Slides/tags.jpeg" alt="Tags & Events" width="260" height="155">
   <a href="https://github.com/gabrielleestewart/bubble">
-    <img src="Slides/chats.jpeg" alt="Chats" width="240" height="135">
+    <img src="Slides/chats.jpeg" alt="Chats" width="260" height="155">
   <br />
 
 <br />
