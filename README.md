@@ -45,7 +45,6 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
   </p>
 </div>
 <br />
-<br />
 
 
 <!-- TABLE OF CONTENTS -->
