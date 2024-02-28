@@ -93,7 +93,8 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
     <img src="Slides/obstacles.jpeg" alt="Obstacles" width="260" height="155">
   <a href="https://github.com/gabrielleestewart/bubble">
     <img src="Slides/nextsteps.jpeg" alt="Next Steps" width="260" height="155">
-
+<br />
+    
 ### Inspiration
 
 Bubble was created with the inspiration of helping UNC students find a sense of community and belonging on campus. We recognized that students may feel isolated or disconnected from others who share their experiences and perspectives. Our goal was to create a platform that would bring students together in a safe and welcoming environment where they could connect with others who share their cultural background or interests. By providing a variety of group chats and events, we hoped to foster a sense of community and help students expand their networks. We believe everyone deserves to find their "bubble" at UNC, and that's why we created this platform.
@@ -114,8 +115,6 @@ We've compiled an extensive onboarding page showcasing all of Bubble's features.
 
 We learned how to leverage Figma’s powerful design features to create visually pleasing and functional software. We discovered how Firebase could be used to implement a wide range of software functionalities. We explored the benefits of collaborating on GitHub in a single repository and learned how to compartmentalize tasks to work together more efficiently.
 
-<br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br />
 <div align="left">
