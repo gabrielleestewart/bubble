@@ -11,6 +11,10 @@ struct EventsView: View {
     var body: some View {
         ZStack {
             Color(red: 0.01, green: 0.17, blue: 0.27)
+                .ignoresSafeArea(.all, edges: [.bottom, .top])
+
+            Color(red: 0.01, green: 0.17, blue: 0.27)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
                 .edgesIgnoringSafeArea(.all)
             
             VStack {
