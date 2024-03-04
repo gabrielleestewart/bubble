@@ -42,6 +42,7 @@ struct OnboardingView: View {
                 }
             }
         }
+        .ignoresSafeArea()
     }
     struct OnboardingView_Previews: PreviewProvider {
         static var previews: some View {
