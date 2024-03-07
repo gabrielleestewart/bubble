@@ -37,7 +37,7 @@ PearlHacks 2024 Project Bubble: Finding communities for the underrepresented.
     <a href="https://github.com/gabrielleestewart/bubble"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <object data="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone14&scale=75&orientation=portrait&osVersion=17.2" type="text/html" width="100%" height="600px">
+    <object data="https://appetize.io/embed/odowjqed4vlmevmooyxgqzwjvu?device=iphone14&scale=75&orientation=portrait&osVersion=17.2" type="text/html" width="100%" height="600px">
     <a href="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone14&scale=75&orientation=portrait&osVersion=17.2">View a demo of the app</a>
     </object>
     ·
@@ -159,7 +159,7 @@ We have exciting plans in the works to improve our chats by adding more function
 <br />
 
 ### Demo
-<object data="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone14&scale=75&orientation=portrait&osVersion=17.2" type="text/html" width="100%" height="600px">
+<object data="https://appetize.io/embed/odowjqed4vlmevmooyxgqzwjvu?device=iphone14&scale=75&orientation=portrait&osVersion=17.2" type="text/html" width="100%" height="600px">
   <a href="https://appetize.io/embed/iudcliol5a3l3ihwlf4z7q4uqa?device=iphone14&scale=75&orientation=portrait&osVersion=17.2">View a demo of the app</a>
 </object>
 
